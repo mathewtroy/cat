@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+    .box {
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+    }
+
+    .photo, .image1 {
+        width: 100%;
+    }
+
+    .cats {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .photo, .image1 {
+        width: 100%;
+    }
+
+    .cats img {
+        width: 40px;
+        height: 40px;
+    }
+}
